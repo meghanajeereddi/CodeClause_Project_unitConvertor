@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>length coverter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <p>Length Converter</p>
+        <div class="inputContainer">
+            <label for="feet">Feet</label><input type="number" name="" id="feet"  
+                      oninput="convert('feet',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="inches">Inches</label><input type="number" name="" id="inches" 
+                     oninput="convert('inch',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="meter">Meters</label><input type="number" name="" id="meter" 
+                    oninput="convert('meter',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="km">Kilometers</label><input type="number" name="" id="km" 
+                     oninput="convert('km',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="cm">Centi Meters</label><input type="number" name="" id="cm"
+                  oninput="convert('cm',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="yards">Yards</label><input type="number" name="" id="yards" 
+                 oninput="convert('yard',this.value)">
+        </div>
+      
+        <div class="inputContainer">
+            <label for="miles">Miles</label><input type="number" name="" id="miles"
+                 oninput="convert('mile',this.value)">
+        </div>
+    </div>        
+    <script src="script.js"></script>
+</body>
+</html>
